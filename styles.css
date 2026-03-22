@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(0, 140, 255);
+    display: grid;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+    
+header{
+    display:block;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+    position: sticky;
+    opacity: 0.5;
+}
+header:hover {transform: scale(1.05);}
+#Books{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: transparent;
+    gap: 1rem;
+    margin: 1vw;
+}
+.Book{
+    height: 35vw;
+    max-height: 400px;
+    background-image: url(view-dashboard.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    border: solid 2px blue;
+}
+.Book>p{
+    display: inline-block;
+    color: rgb(231, 229, 229);
+    align-content: center;
+    text-align: center;
+    
+}
+.Book:hover {transform: scale(1.07);}
