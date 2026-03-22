@@ -120,13 +120,14 @@ button:active {
     border: solid 2px blue;
 }
 .Book>p{
-    display: inline-block;
+    display: none;
     color: rgb(231, 229, 229);
     align-content: center;
     text-align: center;
     
 }
 .Book:hover {transform: scale(1.07);}
+.Book:hover >p {display: block;}
 .Book {
     position: relative;
     flex-direction: column; 
